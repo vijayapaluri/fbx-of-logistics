@@ -21,7 +21,7 @@ from tabulate import tabulate
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
-
+import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
