@@ -37,7 +37,7 @@ Refresh=st.sidebar.button("Refresh")
 
 if Refresh:    
      st.markdown("<h3 style='text-align: Left; color:  #CA6F1E;'>Dataset</h3>", unsafe_allow_html=True)
-     df,train,test,train_log,test_log=scfi.dataset("C:/Users/Vijaya/fbx/freight_index.csv")
+     df,train,test,train_log,test_log=scfi.dataset("https://raw.githubusercontent.com/vijayapaluri/fbx-of-logistics/main/freight_index.csv")
      st.write(df) 
      st.markdown("<h3 style='text-align: Left; color:  #CA6F1E;'>Summary Statistics</h3>", unsafe_allow_html=True) 
      st.dataframe(df.describe())
